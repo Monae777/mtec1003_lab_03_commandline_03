@@ -36,7 +36,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+foo.txt
 
 
 ==========
@@ -52,7 +52,10 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
-
+rwxr-xr-x  4 Monae  staff  128 Feb 18 22:59 .
+drwxr-xr-x  3 Monae  staff   96 Feb 18 22:58 ..
+-rw-r--r--  1 Monae  staff    0 Feb 18 22:59 bar.txt
+-rw-r--r--  1 Monae  staff    0 Feb 18 22:58 foo.txt
 
 
 ==========
@@ -62,6 +65,9 @@ Copy and paste the output below.
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
 
+Monaes-MacBook-Pro:my-files Monae$ cp bar.txt baz.txt
+Monaes-MacBook-Pro:my-files Monae$ ls
+bar.txt	baz.txt	foo.txt
 
 
 ==========
@@ -70,13 +76,18 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
 ==========
+Monaes-MacBook-Pro:my-files Monae$ rm bar.txt
+Monaes-MacBook-Pro:my-files Monae$ ls
+baz.txt	foo.txt
+
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
-
+Monaes-MacBook-Pro:my-files Monae$ mv foo.txt qux.txt
+Monaes-MacBook-Pro:my-files Monae$ ls
+baz.txt	qux.txt
 
 ==========
 12. Go up one directory so that you're in ~/mtec1003-lab-03.
@@ -90,7 +101,7 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
-
+rmdir: my-files: Directory not empty
 
 
 ==========
@@ -99,7 +110,7 @@ Write out the command that you used and what happened.
 Write out the command that you used and what happened.
 ----------
 
-
+rm: my-files: is a directory
 
 ==========
 15. MAKE SURE YOU'RE IN THE mtec1003-lab-03 directory!  
@@ -120,7 +131,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+It did not show another prompt so I can type a command.
 
 
 ==========
