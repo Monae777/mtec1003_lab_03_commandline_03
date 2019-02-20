@@ -18,7 +18,7 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 What command did you use, and what was its output?
 ----------
 
-
+date
 
 ==========
 2. Print out a calendar for this month.
@@ -26,14 +26,15 @@ What command did you use, and what was its output?
 What command did you use, and what was its output?
 ----------
 
-
+cal
 
 ==========
 3. Go to your home directory.  Verify that you're in your home directory.
 
 What commands did you use to do this?
 ----------
-
+cd ~
+pwd
 
 
 ==========
@@ -42,15 +43,22 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+AMALogger20190109.log	Library			angel
+AMALogger20190128.log	MPLABXProjects		copy_to_backup.sh
+Adlm			Movies			destop
+Adobe			Music			isus
+Applications		New Unity Project	mtec1002-lab-03.tar.gz
+Buiding.jpg		Pictures		search-browser
+Desktop			Public			stuff
+Documents		QLData			xgen
+Downloads		Things 
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
-
+-rw-r--r--  1 student  staff  0 Feb 19 18:34 copy_to_backup.sh
 
 ==========
 6. Change the permissions so that this file is executable by the user.  Verify the new permissions.
@@ -58,7 +66,7 @@ What command did you use to find the permissions?
 What commands did you use to do this?  What was the output?
 ----------
 
-
+chmod u+x copy_to_backup.sh
 
 ==========
 7. Try executing the file!
@@ -69,13 +77,14 @@ What command did you use to try to execute the file?  What happens?
 ----------
 
 
+bash ./copy_to_backup.sh
 
 ==========
 8. Open the file with nano
 
 What command did you use to do this?
 ----------
-
+nano ./copy_to_backup.sh
 
 
 ==========
