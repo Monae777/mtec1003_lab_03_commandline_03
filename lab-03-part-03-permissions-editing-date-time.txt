@@ -98,14 +98,15 @@ Don't forget the first line of your shell script! It should begin with #!/bin/ba
 
 Write out the code in your file below...
 ----------
-
+#!/bin/bash
+cp *txt backup/
 
 
 ==========
 10. Create a directory in your home called test
 ----------
 
-
+mkdir test
 
 ==========
 11. Go into that directory and create two empty files... 1.txt and 2.txt
