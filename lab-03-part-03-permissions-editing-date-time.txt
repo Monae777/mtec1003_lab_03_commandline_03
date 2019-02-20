@@ -113,7 +113,10 @@ mkdir test
 
 What commands did you use to do this?
 ----------
-
+Monaes-MacBook-Pro:test Monae$ touch 1.txt
+Monaes-MacBook-Pro:test Monae$ touch 2.txt
+Monaes-MacBook-Pro:test Monae$ ls
+1.txt	2.txt
 
 
 ==========
@@ -121,7 +124,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+#!/bin/bash
 
 
 ==========
@@ -130,10 +133,11 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+./test.sh
 
 ==========
 14. Verify that a backup folder was created in your test directory... with copies of the files present.
 
 What commands did you use to do this?  Show the output.
 ----------
+ls -l
